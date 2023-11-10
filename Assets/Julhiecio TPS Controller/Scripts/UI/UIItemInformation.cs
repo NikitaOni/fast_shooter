@@ -22,7 +22,7 @@ namespace JUTPS.InventorySystem.UI
         public Image ItemHealth;
         void Start()
         {
-            //Player = JUGameManager.InstancedPlayer;
+            Player = JUGameManager.InstancedPlayer;
         }
 
         // Update is called once per frame
