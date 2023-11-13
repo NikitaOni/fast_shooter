@@ -3562,6 +3562,7 @@ GameObject:
   - component: {fileID: 1993301709879102234}
   - component: {fileID: 1993301709879102235}
   - component: {fileID: 1993301709879102238}
+  - component: {fileID: 1358415929}
   m_Layer: 9
   m_Name: 'Security_Female(m16) '
   m_TagString: Enemy
@@ -3781,7 +3782,7 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 220
+    Angle: 360
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
@@ -3994,7 +3995,7 @@ MonoBehaviour:
   DirectionTransform: {fileID: 0}
   DesiredDirection: {x: 0, y: 0, z: 0}
   LocomotionMode: 0
-  SetRigidbodyVelocity: 1
+  SetRigidbodyVelocity: 0
   FireModeMaxTime: 1
   Speed: 3
   RotationSpeed: 3
@@ -4156,6 +4157,22 @@ MonoBehaviour:
   HeightOffset: 0.73
   ProneAndRollCenterY: 0.38
   CenterOffset: {x: 0, y: 0, z: 0}
+--- !u!208 &1358415929
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994881073166078600}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1994907755393465182
 GameObject:
   m_ObjectHideFlags: 0

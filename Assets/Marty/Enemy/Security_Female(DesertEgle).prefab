@@ -2648,6 +2648,7 @@ GameObject:
   - component: {fileID: 7169077190584660584}
   - component: {fileID: 7169077190584660585}
   - component: {fileID: 7169077190584660588}
+  - component: {fileID: 879923527}
   m_Layer: 9
   m_Name: Security_Female(DesertEgle)
   m_TagString: Enemy
@@ -2867,7 +2868,7 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 220
+    Angle: 196
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
@@ -3080,12 +3081,12 @@ MonoBehaviour:
   DirectionTransform: {fileID: 0}
   DesiredDirection: {x: 0, y: 0, z: 0}
   LocomotionMode: 0
-  SetRigidbodyVelocity: 1
+  SetRigidbodyVelocity: 0
   FireModeMaxTime: 1
   Speed: 3
-  RotationSpeed: 3
+  RotationSpeed: 25
   JumpForce: 3
-  StoppingSpeed: 2
+  StoppingSpeed: 5
   AirInfluenceControll: 0.5
   MaxWalkableAngle: 45
   CurvedMovement: 1
@@ -3242,6 +3243,22 @@ MonoBehaviour:
   HeightOffset: 0.73
   ProneAndRollCenterY: 0.38
   CenterOffset: {x: 0, y: 0, z: 0}
+--- !u!208 &879923527
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7168377266548009978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7168412156539047050
 GameObject:
   m_ObjectHideFlags: 0
@@ -5031,6 +5048,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd0a8fe28ad24b4c9de518cf6b1b36b, type: 3}
+--- !u!4 &8488253220071446598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1635361833669968604, guid: 1cd0a8fe28ad24b4c9de518cf6b1b36b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7169077191635753626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3321618221797240033 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5576986396683253371, guid: 1cd0a8fe28ad24b4c9de518cf6b1b36b,
@@ -5043,9 +5066,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51f975cbcc6fa04bb89b93551b6187d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &8488253220071446598 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1635361833669968604, guid: 1cd0a8fe28ad24b4c9de518cf6b1b36b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7169077191635753626}
-  m_PrefabAsset: {fileID: 0}
