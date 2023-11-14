@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6946492615548366874}
   - component: {fileID: 5821887340026316074}
   m_Layer: 10
-  m_Name: Bullet
+  m_Name: Enemy_Bullet_DesertEgle
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

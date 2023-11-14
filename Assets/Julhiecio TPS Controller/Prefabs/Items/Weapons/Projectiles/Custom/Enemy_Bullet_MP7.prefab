@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6946492615548366874}
   - component: {fileID: 5821887340026316074}
   m_Layer: 10
-  m_Name: Bullet
+  m_Name: Enemy_Bullet_MP7
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletVelocity: 150
-  BulletDamage: 5
+  BulletDamage: 2.5
   DestroyTime: 0
   HightPrecisionCollisionDetection: 1
   ImpactAddForce: 1

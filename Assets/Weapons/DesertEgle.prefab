@@ -175,17 +175,17 @@ MonoBehaviour:
   RaycastingLayers:
     serializedVersion: 2
     m_Bits: 0
-  BulletsPerMagazine: 15
-  TotalBullets: 150
-  BulletsAmounts: 15
+  BulletsPerMagazine: 6
+  TotalBullets: 18
+  BulletsAmounts: 6
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
-  Fire_Rate: 0.1
+  Fire_Rate: 0.4
   CurrentFireRateToShoot: 0
   Precision: 25
   LossOfAccuracyPerShot: 1
   ShotErrorProbability: 0
-  BulletPrefab: {fileID: 3163126826636465162, guid: 02e0e3a4e7ef532438a19a6e72cc7503,
+  BulletPrefab: {fileID: 3163126826636465162, guid: 5b64bac07824dd647a33449890d9cd89,
     type: 3}
   MuzzleFlashParticlePrefab: {fileID: 6463995516412543354, guid: 126a491ff75fc2d46865cf8c7b986211,
     type: 3}
@@ -238,7 +238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7989107586646204215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000000009778887, y: 0.09300035, z: 0.30799985}
+  m_LocalPosition: {x: 0.00000055879354, y: 0.09299791, z: 0.30799928}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1635361833669968604}
