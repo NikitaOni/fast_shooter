@@ -2664,11 +2664,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MartyFinal
       objectReference: {fileID: 0}
-    - target: {fileID: 2982861335511059784, guid: c6b4ed9343795e94b814848e64ac316e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b4ed9343795e94b814848e64ac316e, type: 3}
 --- !u!1001 &4887573317830898476
@@ -2791,7 +2786,12 @@ PrefabInstance:
     - target: {fileID: 3720174170560187173, guid: 2c2f3724810ee184e89a6dc354180a80,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887573315940690624, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4887573316223170748, guid: 2c2f3724810ee184e89a6dc354180a80,
         type: 3}
@@ -2830,7 +2830,7 @@ PrefabInstance:
     - target: {fileID: 8869288289171003377, guid: 6dd3ed1d0ead9dd469287aa3670478aa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8869288289171003379, guid: 6dd3ed1d0ead9dd469287aa3670478aa,
         type: 3}

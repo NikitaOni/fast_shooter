@@ -462,7 +462,7 @@ MonoBehaviour:
   Shoot_Position: {fileID: 6497742678884461924}
   ListToIgnoreBulletCollision: []
   FireMode: 3
-  AimMode: 1
+  AimMode: 0
   CameraAimingPosition: {x: 0, y: 0.12, z: -0.2}
   ScopeTexture: {fileID: 0}
   CameraFOV: 30

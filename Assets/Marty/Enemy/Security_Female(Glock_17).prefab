@@ -1183,8 +1183,8 @@ MonoBehaviour:
   TargetTags:
   - Player
   FieldOfView:
-    Radious: 20
-    Angle: 360
+    Radious: 10
+    Angle: 0
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
@@ -1309,8 +1309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 100
-  MaxHealth: 100
+  Health: 20
+  MaxHealth: 20
   BloodScreenEffect: 0
   BloodHitParticle: {fileID: 0}
   OnDeath:
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   DirectionTransform: {fileID: 0}
   DesiredDirection: {x: 0, y: 0, z: 0}
   LocomotionMode: 0
-  SetRigidbodyVelocity: 0
+  SetRigidbodyVelocity: 1
   FireModeMaxTime: 1
   Speed: 3
   RotationSpeed: 3
@@ -5041,6 +5041,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 83.102
       objectReference: {fileID: 0}
+    - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000014156103
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09299842
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.24400012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576986396683253371, guid: d8d3c9761d21d804092087bd34af8f52,
+        type: 3}
+      propertyPath: BulletPrefab
+      value: 
+      objectReference: {fileID: 3163126826636465162, guid: 3443920f4e68e194688f4b1457451c98,
+        type: 3}
     - target: {fileID: 7779892361618165491, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_Name

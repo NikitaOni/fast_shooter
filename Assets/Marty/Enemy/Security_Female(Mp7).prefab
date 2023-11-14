@@ -403,10 +403,10 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 360
+    Angle: 0
   SensorLayerMask:
     serializedVersion: 2
-    m_Bits: 68353
+    m_Bits: 512
   StartRunningAtDistance: 1
   StopDistance: 3
   AttackAtDistance: 10
@@ -5008,8 +5008,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6041857226012461836, guid: 4ba05fdf181833a44b477db447bc5ada,
         type: 3}
+      propertyPath: BulletPrefab
+      value: 
+      objectReference: {fileID: 3163126826636465162, guid: 7bd831c6ad02a6641af43566d8c57187,
+        type: 3}
+    - target: {fileID: 6041857226012461836, guid: 4ba05fdf181833a44b477db447bc5ada,
+        type: 3}
       propertyPath: InfiniteAmmo
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041857226012461836, guid: 4ba05fdf181833a44b477db447bc5ada,
+        type: 3}
+      propertyPath: TotalBullets
+      value: 99999
       objectReference: {fileID: 0}
     - target: {fileID: 6346466149407078027, guid: 4ba05fdf181833a44b477db447bc5ada,
         type: 3}

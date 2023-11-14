@@ -2903,7 +2903,7 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 360
+    Angle: 0
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
@@ -3116,7 +3116,7 @@ MonoBehaviour:
   DirectionTransform: {fileID: 0}
   DesiredDirection: {x: 0, y: 0, z: 0}
   LocomotionMode: 0
-  SetRigidbodyVelocity: 0
+  SetRigidbodyVelocity: 1
   FireModeMaxTime: 1
   Speed: 3
   RotationSpeed: 25
@@ -4986,6 +4986,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3446315395005671133}
     m_Modifications:
+    - target: {fileID: 17818172823266357, guid: ea4ed99512740964dbffdaab68f59f4e,
+        type: 3}
+      propertyPath: BulletPrefab
+      value: 
+      objectReference: {fileID: 3163126826636465162, guid: 09fe20c4d19bab84f869b0f50f07ba02,
+        type: 3}
+    - target: {fileID: 17818172823266357, guid: ea4ed99512740964dbffdaab68f59f4e,
+        type: 3}
+      propertyPath: TotalBullets
+      value: 99999
+      objectReference: {fileID: 0}
     - target: {fileID: 2448335810822804566, guid: ea4ed99512740964dbffdaab68f59f4e,
         type: 3}
       propertyPath: m_Name
