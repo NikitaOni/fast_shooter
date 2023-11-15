@@ -1338,7 +1338,7 @@ GameObject:
   - component: {fileID: 4640132766509146305}
   - component: {fileID: 4640132766509146306}
   m_Layer: 9
-  m_Name: Developer_Male(Two_knife)
+  m_Name: Developer_Male(Boxer)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1423,7 +1423,7 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: 4f035ee96ae055847b4d1853741ad44b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4
+  m_Radius: 0.3
   m_Height: 1.7
   m_Direction: 1
   m_Center: {x: 0, y: 0.85, z: 0}
@@ -1589,8 +1589,8 @@ MonoBehaviour:
   CheckRadius: 0.1
   UpOffset: -0.07
   ForwardOffset: 0.07
-  LeftFoot: {fileID: 0}
-  RightFoot: {fileID: 0}
+  LeftFoot: {fileID: 4642059117468332426}
+  RightFoot: {fileID: 4644531480574632572}
 --- !u!114 &4640132766509146308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   character: {fileID: 0}
   CurrentWayPointToFollow: 0
   PathToDestination: []
-  Destination: {x: 0, y: 0, z: 0}
+  Destination: {x: -20.81, y: 0, z: 0}
   WaypointPath: {fileID: 0}
   DistanceToFinishOnePoint: 1
   CheckNearestPointOnPath: 0
@@ -1814,7 +1814,7 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 220
+    Angle: 0
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
@@ -3810,7 +3810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4640132767645777534
 Transform:
   m_ObjectHideFlags: 0
@@ -5049,7 +5049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7718647597091026622
 Transform:
   m_ObjectHideFlags: 0
