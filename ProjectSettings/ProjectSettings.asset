@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.JulhiecioGameDev.JUTPS3Demo
+    Standalone: com.DefaultCompany.NURPShooter
   buildNumber:
     Bratwurst: 0
     Standalone: 0

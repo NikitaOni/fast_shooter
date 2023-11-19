@@ -841,7 +841,7 @@ namespace JUTPS.JUInputSystem
                     ""path"": ""<Keyboard>/6"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
+                    ""groups"": """",
                     ""action"": ""Slot6"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
