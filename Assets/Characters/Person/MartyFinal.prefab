@@ -1722,7 +1722,7 @@ MonoBehaviour:
   FireModeMaxTime: 1
   Speed: 3
   RotationSpeed: 20
-  JumpForce: 4.3
+  JumpForce: 2.6
   StoppingSpeed: 5
   AirInfluenceControll: 0.5
   MaxWalkableAngle: 45
@@ -1730,7 +1730,7 @@ MonoBehaviour:
   LerpRotation: 1
   BodyInclination: 1
   MovementAffectsWeaponAccuracy: 0
-  OnMovePrecision: 4
+  OnMovePrecision: 2.72
   LookAtPosition: {x: 0, y: 0, z: 0}
   SprintingSkill: 1
   GroundAngleDesaceleration: 1

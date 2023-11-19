@@ -48,7 +48,7 @@ namespace JUTPS.UI
 
             if (HealthPointsText != null)
             {
-                HealthPointsText.text = HealthComponent.Health.ToString("000") + "/" + HealthComponent.MaxHealth;
+                HealthPointsText.text = HealthComponent.Health.ToString();
                 if (ChangeHPTextColorToo) HealthPointsText.color = Color.Lerp(HealthBarImage.color, Color.white, 0.6f);
             }
             if (oldFillAmount != HealthBarImage.fillAmount)
