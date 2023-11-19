@@ -39975,21 +39975,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Developer_Male(Boxer)
       objectReference: {fileID: 0}
-    - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
-        type: 3}
-      propertyPath: Destination.y
-      value: -20.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
-        type: 3}
-      propertyPath: FieldOfView.Angle
-      value: 282
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640132766509146310, guid: 6e313907e13aed948b2f89d1f25d39cb,
-        type: 3}
-      propertyPath: m_Mass
-      value: 55
-      objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
