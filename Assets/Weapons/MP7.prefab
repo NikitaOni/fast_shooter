@@ -313,7 +313,7 @@ MonoBehaviour:
   InfiniteAmmo: 0
   Fire_Rate: 0.05
   CurrentFireRateToShoot: 0
-  Precision: 100
+  Precision: 40
   LossOfAccuracyPerShot: 1
   ShotErrorProbability: 0
   BulletPrefab: {fileID: 3163126826636465162, guid: 3563133a726157248ad5eb9cf4038244,
