@@ -1183,8 +1183,8 @@ MonoBehaviour:
   TargetTags:
   - Player
   FieldOfView:
-    Radious: 10
-    Angle: 0
+    Radious: 15
+    Angle: 360
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
