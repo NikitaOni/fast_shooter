@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemFilterTag: Weapon
-  ItemIcon: {fileID: 21300000, guid: 7e9e1e3653dfbc24cb0abdfc51227d3f, type: 3}
+  ItemIcon: {fileID: 21300000, guid: 5fafdaf9afdea274498ae169c922c5e2, type: 3}
   Unlocked: 1
   ItemQuantity: 1
   MaxItemQuantity: 1

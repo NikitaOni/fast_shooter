@@ -47756,6 +47756,31 @@ PrefabInstance:
       propertyPath: HitTags.Array.data[1]
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5355638514923191730, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355638514923191730, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355638514923191730, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355638514923191730, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702224363531533451, guid: 2c2f3724810ee184e89a6dc354180a80,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c2f3724810ee184e89a6dc354180a80, type: 3}
 --- !u!1001 &1275597156
