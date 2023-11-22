@@ -28055,10 +28055,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: MartyFinalBalance
       objectReference: {fileID: 0}
-    - target: {fileID: 2982861335511059784, guid: c6b4ed9343795e94b814848e64ac316e,
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_LocalRotation.w
+      value: 0.5526282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.42928845
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4224937
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5760318
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -73.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 354.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3227943774441516132, guid: c6b4ed9343795e94b814848e64ac316e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -263.29498
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b4ed9343795e94b814848e64ac316e, type: 3}
