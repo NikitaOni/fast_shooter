@@ -8217,7 +8217,7 @@ MonoBehaviour:
   ShowDamage: 1
   CriticalDamageAudioClip: {fileID: 8300000, guid: d0d28b2abd0a24042927acd95361f7e0,
     type: 3}
-  DamageText: {fileID: 2291124760696163353}
+  DamageText: {fileID: 0}
   CriticalHitMax: 50
   TextFadeSpeed: 1
   NormalHitColor: {r: 1, g: 1, b: 1, a: 1}
