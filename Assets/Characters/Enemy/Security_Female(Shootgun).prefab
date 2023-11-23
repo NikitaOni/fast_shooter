@@ -2684,6 +2684,7 @@ GameObject:
   - component: {fileID: 3448849323480816262}
   - component: {fileID: 3448849323480816259}
   - component: {fileID: 1345706445}
+  - component: {fileID: 8923892262345152407}
   m_Layer: 9
   m_Name: Security_Female(Shootgun)
   m_TagString: Enemy
@@ -3034,7 +3035,19 @@ MonoBehaviour:
   BloodHitParticle: {fileID: 0}
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8923892262345152407}
+        m_TargetAssemblyTypeName: EnemyCount, Assembly-CSharp
+        m_MethodName: decreaseCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   IsDead: 0
 --- !u!114 &3448849323480816263
 MonoBehaviour:
@@ -3294,6 +3307,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &8923892262345152407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448168191788352277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaf3e304d7511f4d8c1a4e9955d49fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3448179555599099127
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,12 +5109,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea4ed99512740964dbffdaab68f59f4e, type: 3}
---- !u!4 &3364460653217568116 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7950509414057051254, guid: ea4ed99512740964dbffdaab68f59f4e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4676166960240316674}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4673144988411344183 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 17818172823266357, guid: ea4ed99512740964dbffdaab68f59f4e,
@@ -5102,3 +5121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51f975cbcc6fa04bb89b93551b6187d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &3364460653217568116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7950509414057051254, guid: ea4ed99512740964dbffdaab68f59f4e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4676166960240316674}
+  m_PrefabAsset: {fileID: 0}
