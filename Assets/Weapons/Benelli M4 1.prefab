@@ -467,7 +467,7 @@ MonoBehaviour:
   ScopeTexture: {fileID: 0}
   CameraFOV: 30
   GenerateProceduralAnimation: 1
-  RecoilForce: 0.151
+  RecoilForce: 0.2
   RecoilForceRotation: 25
   SliderMovementAxis: 0
   GunSlider: {fileID: 0}

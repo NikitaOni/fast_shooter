@@ -27,7 +27,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6704980783535868203}
   - {fileID: 8875051352901448724}
   - {fileID: 8875051351736528580}
   - {fileID: 8875051351662420906}
@@ -38,6 +37,7 @@ Transform:
   - {fileID: 8875051351330151491}
   - {fileID: 8875051350970019574}
   - {fileID: 8875051351470498363}
+  - {fileID: 6704980783535868203}
   - {fileID: 6704980784857430769}
   - {fileID: 6704980784250433902}
   - {fileID: 6704980784296042749}
@@ -60,7 +60,7 @@ PrefabInstance:
     - target: {fileID: 7373089822203313969, guid: f548d0276be039044bf65bb9d8047e41,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7373089822203313969, guid: f548d0276be039044bf65bb9d8047e41,
         type: 3}
@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (17)
+      value: Developer_Male(Boxer) (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -155,7 +155,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -225,7 +225,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (16)
+      value: Developer_Male(Boxer) (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -320,7 +320,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (20)
+      value: Developer_Male(Boxer) (5)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -345,7 +345,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (23)
+      value: Developer_Male(Boxer) (8)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -440,7 +440,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -735,7 +735,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (19)
+      value: Developer_Male(Boxer) (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -760,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -830,7 +830,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (22)
+      value: Developer_Male(Boxer) (7)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -855,7 +855,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -925,7 +925,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (24)
+      value: Developer_Male(Boxer) (9)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -950,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1020,7 +1020,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (18)
+      value: Developer_Male(Boxer) (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1045,7 +1045,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1115,7 +1115,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (15)
+      value: Developer_Male(Boxer)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1140,7 +1140,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1285,7 +1285,7 @@ PrefabInstance:
     - target: {fileID: 4639141054731095672, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_Name
-      value: Developer_Male(Boxer) (21)
+      value: Developer_Male(Boxer) (6)
       objectReference: {fileID: 0}
     - target: {fileID: 4640132766509146305, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
@@ -1310,7 +1310,7 @@ PrefabInstance:
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4644370582656644376, guid: 6e313907e13aed948b2f89d1f25d39cb,
         type: 3}

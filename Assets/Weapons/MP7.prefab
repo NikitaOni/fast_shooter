@@ -313,7 +313,7 @@ MonoBehaviour:
   InfiniteAmmo: 0
   Fire_Rate: 0.05
   CurrentFireRateToShoot: 0
-  Precision: 40
+  Precision: 50
   LossOfAccuracyPerShot: 1
   ShotErrorProbability: 0
   BulletPrefab: {fileID: 3163126826636465162, guid: 3563133a726157248ad5eb9cf4038244,
@@ -327,8 +327,8 @@ MonoBehaviour:
   CameraAimingPosition: {x: 0, y: 0.1, z: -0.2}
   ScopeTexture: {fileID: 0}
   CameraFOV: 30
-  GenerateProceduralAnimation: 0
-  RecoilForce: 0.1
+  GenerateProceduralAnimation: 1
+  RecoilForce: 0.05
   RecoilForceRotation: 20
   SliderMovementAxis: 0
   GunSlider: {fileID: 0}

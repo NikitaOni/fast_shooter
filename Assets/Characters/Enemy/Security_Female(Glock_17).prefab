@@ -1412,8 +1412,8 @@ MonoBehaviour:
   LocomotionMode: 0
   SetRigidbodyVelocity: 1
   FireModeMaxTime: 1
-  Speed: 3
-  RotationSpeed: 3
+  Speed: 2
+  RotationSpeed: 20
   JumpForce: 3
   StoppingSpeed: 2
   AirInfluenceControll: 0.5
@@ -3329,7 +3329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7373401118193805419
 Transform:
   m_ObjectHideFlags: 0
@@ -4568,7 +4568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7373449001457568715
 Transform:
   m_ObjectHideFlags: 0
@@ -5069,17 +5069,22 @@ PrefabInstance:
     - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000014156103
+      value: 0.000000103376806
       objectReference: {fileID: 0}
     - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09299842
+      value: 0.092998415
       objectReference: {fileID: 0}
     - target: {fileID: 2089595614575378856, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24400012
+      value: 0.24400403
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576986396683253371, guid: d8d3c9761d21d804092087bd34af8f52,
+        type: 3}
+      propertyPath: Fire_Rate
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5576986396683253371, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}

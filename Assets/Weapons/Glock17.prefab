@@ -196,9 +196,9 @@ MonoBehaviour:
   CameraAimingPosition: {x: 0, y: 0.1, z: -0.2}
   ScopeTexture: {fileID: 0}
   CameraFOV: 30
-  GenerateProceduralAnimation: 0
-  RecoilForce: 0.1
-  RecoilForceRotation: 20
+  GenerateProceduralAnimation: 1
+  RecoilForce: 0.05
+  RecoilForceRotation: 15
   SliderMovementAxis: 0
   GunSlider: {fileID: 0}
   SliderMovementOffset: 0
