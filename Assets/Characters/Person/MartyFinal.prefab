@@ -1719,7 +1719,7 @@ MonoBehaviour:
   JumpForce: 2.6
   StoppingSpeed: 5
   AirInfluenceControll: 0.5
-  MaxWalkableAngle: 45
+  MaxWalkableAngle: 0
   CurvedMovement: 1
   LerpRotation: 1
   BodyInclination: 1
@@ -1872,7 +1872,7 @@ MonoBehaviour:
   BlockFireModeOnCursorVisible: 0
   BlockFireModeOnPunching: 1
   EnablePunchAttacks: 1
-  EnableRoll: 1
+  EnableRoll: 0
   PhysicalDamage: 1
   DoRagdollPhysicalDamage: 1
   PhysicalDamageStartAt: 25

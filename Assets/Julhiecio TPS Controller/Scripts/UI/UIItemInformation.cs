@@ -55,7 +55,7 @@ namespace JUTPS.InventorySystem.UI
                     ItemQuantity.text = CurrentItem.ItemQuantity + "/" + CurrentItem.MaxItemQuantity;
 
                     BulletLabel.SetActive(true);
-                    BulletQuantity.text = ((Weapon)CurrentItem).BulletsAmounts + "/" + ((Weapon)CurrentItem).TotalBullets;
+                    BulletQuantity.text = ((Weapon)CurrentItem).BulletsAmounts + "/" + ((Weapon)CurrentItem).BulletsPerMagazine;
                     ItemHealth.fillAmount = (float)((Weapon)CurrentItem).BulletsAmounts / (float)((Weapon)CurrentItem).BulletsPerMagazine;
                     return;
                 }
