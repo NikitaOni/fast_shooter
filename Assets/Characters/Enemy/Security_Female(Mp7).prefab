@@ -179,12 +179,13 @@ GameObject:
   - component: {fileID: 7941712287868770505}
   - component: {fileID: 7941712287868770504}
   - component: {fileID: 7941712287868770519}
-  - component: {fileID: 7941712287868770518}
   - component: {fileID: 7941712287868770517}
   - component: {fileID: 7941712287868770516}
   - component: {fileID: 7941712287868770513}
   - component: {fileID: 1505904524}
   - component: {fileID: -5672386285247964840}
+  - component: {fileID: 7941712287868770518}
+  - component: {fileID: 9178748730009561744}
   m_Layer: 9
   m_Name: Security_Female(Mp7)
   m_TagString: Enemy
@@ -517,38 +518,6 @@ MonoBehaviour:
   IsItemSelected: 0
   DualWielding: 0
   IsPickingItem: 0
---- !u!114 &7941712287868770518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7939913917343908167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 20
-  MaxHealth: 20
-  BloodScreenEffect: 0
-  BloodHitParticle: {fileID: 0}
-  OnDeath:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -5672386285247964840}
-        m_TargetAssemblyTypeName: EnemyCount, Assembly-CSharp
-        m_MethodName: decreaseCount
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  IsDead: 0
 --- !u!114 &7941712287868770517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,6 +788,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbaf3e304d7511f4d8c1a4e9955d49fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7941712287868770518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939913917343908167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 20
+  MaxHealth: 20
+  BloodScreenEffect: 0
+  BloodHitParticle: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5672386285247964840}
+        m_TargetAssemblyTypeName: EnemyCount, Assembly-CSharp
+        m_MethodName: decreaseCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9178748730009561744}
+        m_TargetAssemblyTypeName: JUTPS.Utilities.JUAutoInstantiate, Assembly-CSharp
+        m_MethodName: InstantiatePrefab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  IsDead: 0
+--- !u!114 &9178748730009561744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939913917343908167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0096f6e233501104390d9b289f66a017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 0}
+  StartInstantiateOnAwake: 0
+  TimeToSpawn: 2
+  Repeat: 0
+  RepeatingTime: 1
+  InstanceLifeTime: 15
+  SwitchToRandomInstantiate: 1
+  PrefabsToInstantiate:
+  - {fileID: 3516352575337148050, guid: 07db9bf568242044f9211ec0cd24c092, type: 3}
+  SpawnArea: {x: 0, y: 0, z: 0}
+  PositionOffset: {x: 0, y: 0.5, z: 0}
+  RandomRotation: 0
+  Quantity: 1
+  InstancesLimit: 32
+  EmptyInstantiatePorcentage: 70
+  OnInstantiate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7939941178309748881
 GameObject:
   m_ObjectHideFlags: 0
