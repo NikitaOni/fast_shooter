@@ -4179,8 +4179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 20
-  MaxHealth: 20
+  Health: 30
+  MaxHealth: 30
   BloodScreenEffect: 0
   BloodHitParticle: {fileID: 0}
   OnDeath:
@@ -4236,8 +4236,8 @@ MonoBehaviour:
   PositionOffset: {x: 0, y: 0.5, z: 0}
   RandomRotation: 0
   Quantity: 1
-  InstancesLimit: 32
-  EmptyInstantiatePorcentage: 70
+  InstancesLimit: 10
+  EmptyInstantiatePorcentage: 85
   OnInstantiate:
     m_PersistentCalls:
       m_Calls: []
@@ -5062,22 +5062,27 @@ PrefabInstance:
     - target: {fileID: 4096135092858331387, guid: c1eadb7346638cf408812daba7f109f8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00001527369
+      value: 0.000015575439
       objectReference: {fileID: 0}
     - target: {fileID: 4096135092858331387, guid: c1eadb7346638cf408812daba7f109f8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09300697
+      value: 0.09300576
       objectReference: {fileID: 0}
     - target: {fileID: 4096135092858331387, guid: c1eadb7346638cf408812daba7f109f8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7580236
+      value: 0.75802547
       objectReference: {fileID: 0}
     - target: {fileID: 4843323663209559030, guid: c1eadb7346638cf408812daba7f109f8,
         type: 3}
       propertyPath: FireMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843323663209559030, guid: c1eadb7346638cf408812daba7f109f8,
+        type: 3}
+      propertyPath: Fire_Rate
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4843323663209559030, guid: c1eadb7346638cf408812daba7f109f8,
         type: 3}

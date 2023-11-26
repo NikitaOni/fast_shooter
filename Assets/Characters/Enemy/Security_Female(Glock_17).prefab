@@ -1581,8 +1581,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 20
-  MaxHealth: 20
+  Health: 30
+  MaxHealth: 30
   BloodScreenEffect: 0
   BloodHitParticle: {fileID: 0}
   OnDeath:
@@ -1638,8 +1638,8 @@ MonoBehaviour:
   PositionOffset: {x: 0, y: 0.5, z: 0}
   RandomRotation: 0
   Quantity: 1
-  InstancesLimit: 32
-  EmptyInstantiatePorcentage: 70
+  InstancesLimit: 10
+  EmptyInstantiatePorcentage: 85
   OnInstantiate:
     m_PersistentCalls:
       m_Calls: []
