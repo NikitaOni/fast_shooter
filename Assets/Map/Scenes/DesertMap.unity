@@ -78669,7 +78669,7 @@ PrefabInstance:
     - target: {fileID: 4278026428146861164, guid: 72bce1be4f2c4744db2e6ce12bb37b67,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4278026428146861171, guid: 72bce1be4f2c4744db2e6ce12bb37b67,
         type: 3}
@@ -78729,7 +78729,7 @@ PrefabInstance:
     - target: {fileID: 6709284322665433477, guid: 72bce1be4f2c4744db2e6ce12bb37b67,
         type: 3}
       propertyPath: StartRunningAtDistance
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72bce1be4f2c4744db2e6ce12bb37b67, type: 3}

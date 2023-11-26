@@ -2853,7 +2853,7 @@ MonoBehaviour:
   PathToDestination: []
   Destination: {x: 0, y: 0, z: 0}
   WaypointPath: {fileID: 0}
-  DistanceToFinishOnePoint: 1
+  DistanceToFinishOnePoint: 5
   CheckNearestPointOnPath: 0
   OnEndPath: 0
   OnStartPath:
@@ -3083,7 +3083,7 @@ MonoBehaviour:
   anim: {fileID: 7074741105634358722}
   rb: {fileID: 0}
   MyPivotCamera: {fileID: 0}
-  CharacterHealth: {fileID: 0}
+  CharacterHealth: {fileID: 7169077190584660587}
   DriveVehicleAbility: {fileID: 0}
   Inventory: {fileID: 0}
   LeftHandDamager: {fileID: 0}

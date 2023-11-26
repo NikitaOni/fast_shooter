@@ -388,7 +388,7 @@ MonoBehaviour:
   PathToDestination: []
   Destination: {x: 0, y: 0, z: 0}
   WaypointPath: {fileID: 0}
-  DistanceToFinishOnePoint: 1
+  DistanceToFinishOnePoint: 3
   CheckNearestPointOnPath: 0
   OnEndPath: 0
   OnStartPath:

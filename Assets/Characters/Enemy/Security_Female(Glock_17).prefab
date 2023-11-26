@@ -1169,7 +1169,7 @@ MonoBehaviour:
   PathToDestination: []
   Destination: {x: 0, y: 0, z: 0}
   WaypointPath: {fileID: 0}
-  DistanceToFinishOnePoint: 1
+  DistanceToFinishOnePoint: 3
   CheckNearestPointOnPath: 0
   OnEndPath: 0
   OnStartPath:
@@ -1193,7 +1193,7 @@ MonoBehaviour:
   StopDistance: 3
   AttackAtDistance: 10
   AimUpOffset: 1
-  LookTargetSpeed: 20
+  LookTargetSpeed: 10
   AttackDuration: 1
   MinTimeToAttack: 0.5
   MaxTimeToAttack: 3
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   DirectionTransform: {fileID: 0}
   DesiredDirection: {x: 0, y: 0, z: 0}
   LocomotionMode: 0
-  SetRigidbodyVelocity: 1
+  SetRigidbodyVelocity: 0
   FireModeMaxTime: 1
   Speed: 2
   RotationSpeed: 20
