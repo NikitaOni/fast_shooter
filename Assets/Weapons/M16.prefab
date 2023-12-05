@@ -177,7 +177,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   BulletsPerMagazine: 30
-  TotalBullets: 60
+  TotalBullets: 99999
   BulletsAmounts: 30
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   Precision: 60
   LossOfAccuracyPerShot: 1
   ShotErrorProbability: 0
-  BulletPrefab: {fileID: 3163126826636465162, guid: 72e77ddc9ece16b49bd6119c0f1bfd35,
+  BulletPrefab: {fileID: 3163126826636465162, guid: 44521c08fa40e094f90b86e2aa451923,
     type: 3}
   MuzzleFlashParticlePrefab: {fileID: 6463995516412543354, guid: 126a491ff75fc2d46865cf8c7b986211,
     type: 3}

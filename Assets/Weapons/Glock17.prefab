@@ -180,7 +180,7 @@ MonoBehaviour:
   BulletsAmounts: 17
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
-  Fire_Rate: 0.2
+  Fire_Rate: 0.05
   CurrentFireRateToShoot: 0
   Precision: 25
   LossOfAccuracyPerShot: 1
