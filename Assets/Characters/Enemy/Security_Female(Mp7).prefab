@@ -600,7 +600,7 @@ MonoBehaviour:
   LocomotionMode: 0
   SetRigidbodyVelocity: 0
   FireModeMaxTime: 1
-  Speed: 3
+  Speed: 2
   RotationSpeed: 20
   JumpForce: 3
   StoppingSpeed: 2
@@ -5078,6 +5078,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Fire_Rate
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041857226012461836, guid: 4ba05fdf181833a44b477db447bc5ada,
+        type: 3}
+      propertyPath: Precision
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6041857226012461836, guid: 4ba05fdf181833a44b477db447bc5ada,
         type: 3}
