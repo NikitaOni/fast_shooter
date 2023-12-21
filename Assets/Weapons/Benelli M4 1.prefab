@@ -446,7 +446,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   BulletsPerMagazine: 8
-  TotalBullets: 24
+  TotalBullets: 99999
   BulletsAmounts: 8
   NumberOfShotgunBulletsPerShot: 8
   InfiniteAmmo: 0
@@ -474,8 +474,8 @@ MonoBehaviour:
   SliderMovementOffset: 0
   SliderMovementSpeed: 0.5
   SliderStartLocalPosition: {x: 0, y: 0, z: 0}
-  WeaponPositionSpeed: 5
-  WeaponRotationSpeed: 5
+  WeaponPositionSpeed: 20
+  WeaponRotationSpeed: 20
   CameraRecoilMultiplier: 0.8
   BulletCasingPrefab: {fileID: 0}
   BulletCasingParticle: {fileID: 0}
