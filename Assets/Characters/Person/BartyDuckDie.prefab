@@ -858,21 +858,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 71681
   GroundCheckRadius: 0.1
-  GroundCheckHeighOfsset: 0.1
-  GroundCheckSize: 0.5
+  GroundCheckHeighOfsset: 0.13
+  GroundCheckSize: 0.3
   WhatIsWall:
     serializedVersion: 2
-    m_Bits: 261951
-  WallRayHeight: -0.11
+    m_Bits: 0
+  WallRayHeight: -5
   WallRayDistance: 0.1
   EnableStepCorrection: 1
-  UpStepSpeed: 5
+  UpStepSpeed: 15
   StepCorrectionMask:
     serializedVersion: 2
     m_Bits: 71681
-  FootstepHeight: 0.4
+  FootstepHeight: 0.432
   ForwardStepOffset: 0.6
-  StepHeight: 0.02
+  StepHeight: 0.411
   AnimatorParameters:
     _BaseLayerIndex: 0
     _LegsLayerIndex: 1
