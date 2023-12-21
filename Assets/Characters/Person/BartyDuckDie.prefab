@@ -863,8 +863,8 @@ MonoBehaviour:
   WhatIsWall:
     serializedVersion: 2
     m_Bits: 261951
-  WallRayHeight: 5
-  WallRayDistance: 2.99
+  WallRayHeight: -0.11
+  WallRayDistance: 0.1
   EnableStepCorrection: 1
   UpStepSpeed: 5
   StepCorrectionMask:
