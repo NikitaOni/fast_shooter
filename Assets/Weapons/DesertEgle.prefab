@@ -155,7 +155,7 @@ MonoBehaviour:
   CamPivot: {fileID: 0}
   SingleUseItem: 0
   ContinuousUseItem: 0
-  BlockFireMode: 0
+  BlockFireMode: 1
   ItemModelInBody: {fileID: 0}
   TimeToUse: 0
   CurrentTimeToUse: 0
