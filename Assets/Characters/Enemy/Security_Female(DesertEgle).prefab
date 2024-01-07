@@ -3676,9 +3676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15c793f59fe2864ba14d900aef179d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadDamageIntensity: 5
+  HeadDamageIntensity: 2
   TorsoDamageIntensity: 1
-  LegsDamageIntensity: 0.8
+  LegsDamageIntensity: 0.5
   ArmsDamageIntensity: 0.5
   AllParts: []
 --- !u!114 &-412402483387422906
