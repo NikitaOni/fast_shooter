@@ -21,7 +21,14 @@ namespace JUTPS.PowerUps
                 {
                     if (juHealth.Health == juHealth.MaxHealth) return;
 
-                    juHealth.Health += HealthToAdd;
+                    if (juHealth.Health + HealthToAdd >= juHealth.MaxHealth)
+                    {
+                        juHealth.Health = juHealth.MaxHealth;
+                    }
+                    else
+                    {
+                        juHealth.Health += HealthToAdd;
+                    }
 
                     GameObject fx = Instantiate(Effect, transform.position, transform.rotation);
                     Destroy(fx, 5);

@@ -2032,7 +2032,7 @@ MonoBehaviour:
   RandomRotation: 0
   Quantity: 1
   InstancesLimit: 10
-  EmptyInstantiatePorcentage: 85
+  EmptyInstantiatePorcentage: 0
   OnInstantiate:
     m_PersistentCalls:
       m_Calls: []
