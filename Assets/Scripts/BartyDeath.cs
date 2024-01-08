@@ -9,6 +9,7 @@ public class BartyDeath : MonoBehaviour
     private IEnumerator DeleyDeath()
     {
         yield return new WaitForSeconds(2);
+        LevelManager.enemyCount = 0;
         SceneManager.LoadScene(0);
     }
     public void Death()
