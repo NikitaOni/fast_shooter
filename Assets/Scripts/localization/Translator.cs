@@ -26,7 +26,12 @@ public class Translator : MonoBehaviour
             "JUMP",//8
             "ROLL",//9
             "FIRE",//10
-            "FIRE MODE"//11
+            "FIRE MODE",//11
+            "Machete",//12
+            "Infinite\r\nAmmo",//13
+            "Desert Egle",//14
+            "RECEIVED!",//15
+            "For one round\r\nper ADS"//16
         },
         #endregion
         #region РУССКИЙ
@@ -42,7 +47,12 @@ public class Translator : MonoBehaviour
             "ПРЫЖОК",
             "ПЕРЕКАТ",
             "ОГОНЬ",
-            "ПРИЦЕЛ"
+            "ПРИЦЕЛ",
+            "Мачете",
+            "Бесконечный\r\nмагазин",
+            "Пустынный орел",
+            "ПОЛУЧЕНО!",
+            "На один раунд\r\nЗа рекламу"
         },
         #endregion
     };
