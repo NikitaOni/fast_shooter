@@ -19,11 +19,13 @@ public class EnemyCount : MonoBehaviour
             if(LevelCount.levelCount < 10)
             {
                 LevelCount.levelCount++;
+                RewardedADS.returnEquip();
                 SceneManager.LoadScene(0);
             }
             else
             {
                 LevelCount.levelCount = 1;
+                RewardedADS.returnEquip();
                 SceneManager.LoadScene(0);
             }
         }

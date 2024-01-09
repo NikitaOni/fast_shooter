@@ -10,6 +10,7 @@ public class BartyDeath : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         LevelManager.enemyCount = 0;
+        RewardedADS.returnEquip();
         SceneManager.LoadScene(0);
     }
     public void Death()

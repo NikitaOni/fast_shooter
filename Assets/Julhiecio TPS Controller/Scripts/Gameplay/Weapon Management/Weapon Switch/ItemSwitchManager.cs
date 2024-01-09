@@ -162,12 +162,14 @@ namespace JUTPS.ItemSystem
 
             if (EnableAlphaNumericWeaponSwitch)
             {
-                if (JUInput.Instance().InputActions.Player.Slot1.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.first);
-                if (JUInput.Instance().InputActions.Player.Slot2.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.second);
+                if (JUInput.Instance().InputActions.Player.Slot1.triggered && RewardedADS.machete == false) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.first);
+                if (JUInput.Instance().InputActions.Player.Slot1.triggered && RewardedADS.machete == true) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.seventh);
+                if (JUInput.Instance().InputActions.Player.Slot2.triggered && RewardedADS.egle == false) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.second);
+                if (JUInput.Instance().InputActions.Player.Slot2.triggered && RewardedADS.egle == true) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.eighth);
                 if (JUInput.Instance().InputActions.Player.Slot3.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.third);
                 if (JUInput.Instance().InputActions.Player.Slot4.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.fourth);
                 if (JUInput.Instance().InputActions.Player.Slot5.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.fifth);
-                if (JUInput.Instance().InputActions.Player.Slot6.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.sixth);
+                if (JUInput.Instance().InputActions.Player.Slot6.triggered && RewardedADS.m249) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.sixth);
                 //if (JUInput.Instance().InputActions.Player.Slot7.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.seventh);
                 //if (JUInput.Instance().InputActions.Player.Slot8.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.eighth);
                 //if (JUInput.Instance().InputActions.Player.Slot9.triggered) SwitchToItemInSequentialSlot(JUInventory.SequentialSlotsEnum.ninth);

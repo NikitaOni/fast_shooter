@@ -154,8 +154,8 @@ MonoBehaviour:
   WeaponRotationCenter: {fileID: 0}
   CamPivot: {fileID: 0}
   SingleUseItem: 0
-  ContinuousUseItem: 0
-  BlockFireMode: 1
+  ContinuousUseItem: 1
+  BlockFireMode: 0
   ItemModelInBody: {fileID: 0}
   TimeToUse: 0
   CurrentTimeToUse: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   BulletsPerMagazine: 6
-  TotalBullets: 18
+  TotalBullets: 99999
   BulletsAmounts: 6
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
