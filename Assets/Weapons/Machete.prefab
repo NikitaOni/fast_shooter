@@ -133,7 +133,7 @@ MonoBehaviour:
   IsLeftHandItem: 0
   ForceDualWielding: 0
   DualItemToWielding: {fileID: 0}
-  HoldPose: 0
+  HoldPose: 1
   PushItemFrom: 0
   OppositeHandPosition: {fileID: 0}
   AttackAnimatorParameterName: OneHandMeleeAttack

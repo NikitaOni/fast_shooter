@@ -124,7 +124,7 @@ namespace JUTPS
             {
                 if (IsProne == false)
                 {
-                    _Prone();
+                    //_Prone();
                 }
                 else
                 {

@@ -31,7 +31,10 @@ public class Translator : MonoBehaviour
             "Infinite\r\nAmmo",//13
             "Desert Egle",//14
             "RECEIVED!",//15
-            "For one round\r\nper ADS"//16
+            "For one round\r\nper ADS",//16
+            "Settings",//17
+            "Music",//18
+            "Sound Effects"//19
         },
         #endregion
         #region РУССКИЙ
@@ -52,7 +55,10 @@ public class Translator : MonoBehaviour
             "Бесконечный\r\nмагазин",
             "Пустынный орел",
             "ПОЛУЧЕНО!",
-            "На один раунд\r\nЗа рекламу"
+            "На один раунд\r\nЗа рекламу",
+            "Настройки",
+            "Музыка",
+            "Звуки"
         },
         #endregion
     };
