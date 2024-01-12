@@ -1518,6 +1518,8 @@ GameObject:
   m_Component:
   - component: {fileID: 259379881}
   - component: {fileID: 259379880}
+  - component: {fileID: 259379882}
+  - component: {fileID: 259379883}
   m_Layer: 0
   m_Name: Bg_music
   m_TagString: Untagged
@@ -1636,6 +1638,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &259379882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259379879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800a1a2ba0e348544b908d5493f7a6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeParameter: Music
+  Mixer: {fileID: 24100000, guid: 28420295f645115448146533c1ed7054, type: 2}
+  slider: {fileID: 426268107}
+--- !u!114 &259379883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259379879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800a1a2ba0e348544b908d5493f7a6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeParameter: Sound
+  Mixer: {fileID: 24100000, guid: 28420295f645115448146533c1ed7054, type: 2}
+  slider: {fileID: 1376227480}
 --- !u!1 &290031769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2797,25 +2829,13 @@ MonoBehaviour:
   m_FillRect: {fileID: 880096095}
   m_HandleRect: {fileID: 1939968769}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 901757105}
-        m_TargetAssemblyTypeName: AudioSettings, Assembly-CSharp
-        m_MethodName: ChangeVolume
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 40
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &427368374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,7 +5316,6 @@ GameObject:
   - component: {fileID: 901757102}
   - component: {fileID: 901757101}
   - component: {fileID: 901757100}
-  - component: {fileID: 901757105}
   - component: {fileID: 901757104}
   m_Layer: 5
   m_Name: Canvas
@@ -5409,19 +5428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test_text: {fileID: 1817246963}
---- !u!114 &901757105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901757099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 800a1a2ba0e348544b908d5493f7a6d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Mixer: {fileID: -6229738417382861365, guid: 28420295f645115448146533c1ed7054, type: 2}
 --- !u!1 &902682873
 GameObject:
   m_ObjectHideFlags: 0
@@ -7743,10 +7749,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1142410212}
   m_HandleRect: {fileID: 1920868044}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10513,6 +10519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: EnablePunchAttacks
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415346106237986969, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 415346106237986974, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}
