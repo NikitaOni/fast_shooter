@@ -569,7 +569,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 30.02
-  m_Text: Shop
+  m_Text: Rate
 --- !u!222 &73660170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8535,7 +8535,7 @@ GameObject:
   - component: {fileID: 1514630275}
   - component: {fileID: 1514630274}
   m_Layer: 5
-  m_Name: Shop
+  m_Name: Rate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8558,7 +8558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 25, y: 20}
+  m_AnchoredPosition: {x: 50, y: 20}
   m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1514630274
@@ -9228,7 +9228,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 50, y: 50}
-  m_Spacing: {x: 10, y: 0}
+  m_Spacing: {x: 11, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1735215741
@@ -11131,7 +11131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -25, y: 20}
+  m_AnchoredPosition: {x: -50, y: 20}
   m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1964386226

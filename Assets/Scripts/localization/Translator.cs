@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Translator : MonoBehaviour
 {
-    private static int LangageId;
+    public static int LangageId;
     
     private static List<Translatable_text> listId = new List<Translatable_text>();
 
@@ -16,7 +16,7 @@ public class Translator : MonoBehaviour
         #region АНГЛИЙСКИЙ
         {
             "Start Game",//0
-            "Shop",//1
+            "Rate",//1
             "How to play",//2
             "UP",//3
             "LEFT",//4
@@ -40,7 +40,7 @@ public class Translator : MonoBehaviour
         #region РУССКИЙ
         {
             "Начать игру",
-            "Магазин",
+            "Оценить",
             "Как играть",
             "ВВЕРХ",
             "ВЛЕВО",
