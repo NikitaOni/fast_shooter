@@ -11950,40 +11950,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 415346106237986919, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
+    - target: {fileID: 415346106237986971, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}
-      propertyPath: GroundCheckSize
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 415346106237986919, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
-        type: 3}
-      propertyPath: GroundCheckRadius
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 415346106237986919, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
-        type: 3}
-      propertyPath: GroundCheckHeighOfsset
-      value: -0.16
+      propertyPath: m_Radius
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 649348222978485768, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}
       propertyPath: m_Name
       value: BartyDuckDie
-      objectReference: {fileID: 0}
-    - target: {fileID: 2287646834649577992, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
-        type: 3}
-      propertyPath: WallCheck
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2287646834649577992, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
-        type: 3}
-      propertyPath: GroundCheck
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2287646834649577992, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
-        type: 3}
-      propertyPath: StepCorrection
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f3c2654611ead4aa6c8130f0b9ce7d, type: 3}

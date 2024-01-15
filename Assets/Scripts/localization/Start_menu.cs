@@ -11,7 +11,17 @@ public class Start_menu : MonoBehaviour
     {
         if(PlayerPrefs.HasKey("Language") == false)
         {
-            PlayerPrefs.SetInt("Langague", 1);
+            if (PlayerPrefs.GetInt("Langague") == 1)
+            {
+                PlayerPrefs.SetInt("Langague", 1);
+            } else if(PlayerPrefs.GetInt("Langague") == 0)
+            {
+                PlayerPrefs.SetInt("Langague", 0);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Langague", 1);
+            }     
         }
         Translator.Select_language(PlayerPrefs.GetInt("Langague"));
     }
@@ -20,6 +30,8 @@ public class Start_menu : MonoBehaviour
     {
         PlayerPrefs.SetInt("Langague", languageID);
         Translator.Select_language(PlayerPrefs.GetInt("Langague"));
+        Debug.Log(PlayerPrefs.HasKey("Language"));
+        Debug.Log(PlayerPrefs.GetInt("Langague"));
     }
 
     public void Show_text()
