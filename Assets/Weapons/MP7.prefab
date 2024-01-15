@@ -123,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3774213633501933670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000000230968, y: 0.057997316, z: 0.33200014}
+  m_LocalPosition: {x: 0.00000014156103, y: 0.057997406, z: 0.33200014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6346466149407078027}
@@ -307,9 +307,9 @@ MonoBehaviour:
   RaycastingLayers:
     serializedVersion: 2
     m_Bits: 0
-  BulletsPerMagazine: 30
+  BulletsPerMagazine: 20
   TotalBullets: 99999
-  BulletsAmounts: 30
+  BulletsAmounts: 20
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
   Fire_Rate: 0.05

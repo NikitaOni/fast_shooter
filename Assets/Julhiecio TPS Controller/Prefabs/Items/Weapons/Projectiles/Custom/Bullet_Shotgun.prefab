@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletVelocity: 150
-  BulletDamage: 5
+  BulletDamage: 12
   DestroyTime: 0
   HightPrecisionCollisionDetection: 1
   ImpactAddForce: 1

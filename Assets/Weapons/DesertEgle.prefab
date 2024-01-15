@@ -176,9 +176,9 @@ MonoBehaviour:
   RaycastingLayers:
     serializedVersion: 2
     m_Bits: 0
-  BulletsPerMagazine: 6
+  BulletsPerMagazine: 7
   TotalBullets: 99999
-  BulletsAmounts: 6
+  BulletsAmounts: 7
   NumberOfShotgunBulletsPerShot: 12
   InfiniteAmmo: 0
   Fire_Rate: 0.4
@@ -197,9 +197,9 @@ MonoBehaviour:
   CameraAimingPosition: {x: 0, y: 0.1, z: -0.2}
   ScopeTexture: {fileID: 0}
   CameraFOV: 30
-  GenerateProceduralAnimation: 0
+  GenerateProceduralAnimation: 1
   RecoilForce: 0.1
-  RecoilForceRotation: 20
+  RecoilForceRotation: 15
   SliderMovementAxis: 0
   GunSlider: {fileID: 0}
   SliderMovementOffset: 0
@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7989107586646204215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00000055879354, y: 0.09299791, z: 0.30799928}
+  m_LocalPosition: {x: 0.00000020861626, y: 0.09299779, z: 0.30799913}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1635361833669968604}

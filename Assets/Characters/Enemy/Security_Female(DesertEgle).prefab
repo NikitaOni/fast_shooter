@@ -3196,7 +3196,7 @@ MonoBehaviour:
   - Player
   FieldOfView:
     Radious: 20
-    Angle: 196
+    Angle: 360
   SensorLayerMask:
     serializedVersion: 2
     m_Bits: 68353
