@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LevelCount : MonoBehaviour
 {
-    public static int levelCount =  1;
+    public static int levelCount =  10;
 
     private void Start()
     {

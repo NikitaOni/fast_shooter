@@ -34,7 +34,9 @@ public class Translator : MonoBehaviour
             "For one round\r\nper ADS",//16
             "Settings",//17
             "Music",//18
-            "Sound Effects"//19
+            "Sound Effects",//19
+            "Thank you for playing our game! \r\nThe continuation will be very soon!",//20
+            "Dear friend!" //21
         },
         #endregion
         #region РУССКИЙ
@@ -58,7 +60,9 @@ public class Translator : MonoBehaviour
             "На один раунд\r\nЗа рекламу",
             "Настройки",
             "Музыка",
-            "Звуки"
+            "Звуки",
+            "Спасибо что прошел нашу игру! \r\nПродолжение выйдет совсем скоро!",
+            "Дорогой друг!"
         },
         #endregion
     };

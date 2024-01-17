@@ -13,7 +13,7 @@ public class BartyDeath : MonoBehaviour
         RewardedADS.returnEquip();
         SceneManager.LoadScene(0);
     }
-    public void Death()
+     public  void Death()
     {
         StartCoroutine(DeleyDeath());
     }
