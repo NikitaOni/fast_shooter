@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using JUTPS.JUInputSystem;
 using JUTPS.WeaponSystem;
+using System.Collections;
+
 namespace JUTPS.CameraSystems
 {
 
@@ -40,7 +42,8 @@ namespace JUTPS.CameraSystems
 			base.Start();
 			//Get JU Character Controller reference
 			if (TargetToFollow.TryGetComponent(out JUCharacterController JUcharacter)) { characterTarget = JUcharacter; TargetToFollow = characterTarget.HumanoidSpine; }
-		}
+            
+        }
 		//Rotate camera and update camera states
 		protected virtual void Update()
 		{
@@ -61,7 +64,9 @@ namespace JUTPS.CameraSystems
 				if (characterTarget != null)
 				{
 					NormalAutoRotation(characterTarget);
-				}
+                    
+
+                }
 				else
 				{
 					NormalAutoRotation(TargetToFollow);
@@ -226,7 +231,8 @@ namespace JUTPS.CameraSystems
 			{
 				rotytarget = Mathf.LerpAngle(rotytarget, targetRotation.rotation.eulerAngles.y, HorizontalSpeed * Time.deltaTime);
 				rotxtarget = Mathf.LerpAngle(rotxtarget, 0, VerticalSpeed * Time.deltaTime);
-			}
+				StartCoroutine(DeleyRotate());
+            }
 			else
 			{
 				CurrentTimeToAutoRotation += Time.deltaTime;
@@ -246,6 +252,12 @@ namespace JUTPS.CameraSystems
 		{
 			StopAutoRotation(); EnableVehicleAutoRotation = false;
 		}
-	}
+
+        private IEnumerator DeleyRotate()
+        {
+            yield return new WaitForSeconds(1f);
+            EnableAutoRotator = false;
+        }
+    }
 
 }

@@ -89,7 +89,6 @@ namespace JUTPS
 
             if (Resources.Load("Editor Resources/Models/" + ModelName) == null)
             {
-                Debug.Log("Unable to load model, check model name and directory path.");
                 return null;
             }
 

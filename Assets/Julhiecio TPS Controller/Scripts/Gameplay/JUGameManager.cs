@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace JUTPS
@@ -20,7 +22,12 @@ namespace JUTPS
 			}
 
 			IsMobile = SimulateMobileDevice ? true : (SystemInfo.deviceType == DeviceType.Handheld);
-		}
+
+            var center = Screen.safeArea.center;
+            Mouse.current.WarpCursorPosition(center);
+            InputState.Change(Mouse.current.position, center);
+
+        }
 		private void OnDestroy()
 		{
 			InstancedPlayer = null;
