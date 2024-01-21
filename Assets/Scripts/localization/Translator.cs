@@ -36,7 +36,10 @@ public class Translator : MonoBehaviour
             "Music",//18
             "Sound Effects",//19
             "Thank you for playing our game! \r\nThe continuation will be very soon!",//20
-            "Dear friend!" //21
+            "Dear friend!", //21
+            "SEAT",//22
+            "RUN" //23
+
         },
         #endregion
         #region РУССКИЙ
@@ -62,7 +65,9 @@ public class Translator : MonoBehaviour
             "Музыка",
             "Звуки",
             "Спасибо что прошел нашу игру! \r\nПродолжение выйдет совсем скоро!",
-            "Дорогой друг!"
+            "Дорогой друг!",  
+            "СЕСТЬ", 
+            "БЕГ"
         },
         #endregion
     };
