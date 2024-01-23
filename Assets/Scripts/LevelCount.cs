@@ -5,10 +5,19 @@ using UnityEngine.UI;
 
 public class LevelCount : MonoBehaviour
 {
-    public static int levelCount =  10;
+    public static int levelCount =  1;
 
     private void Start()
     {
+        if(PlayerPrefs.HasKey("Level") == false)
+        {
+            levelCount = 1;
+        }
+        else
+        {
+            levelCount = PlayerPrefs.GetInt("Level");
+        }
+
         for (int i = 0; i < transform.childCount; i++)
         {
             int count = i + 1;

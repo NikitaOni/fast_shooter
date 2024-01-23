@@ -518,7 +518,7 @@ MonoBehaviour:
   TargetTags:
   - Player
   FieldOfView:
-    Radious: 20
+    Radious: 45
     Angle: 360
   SensorLayerMask:
     serializedVersion: 2

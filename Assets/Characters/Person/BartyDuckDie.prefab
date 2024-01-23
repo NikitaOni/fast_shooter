@@ -620,7 +620,7 @@ Transform:
   - {fileID: 415346106423637196}
   - {fileID: 6724871586385438013}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6100423373717008072
 Animator:
@@ -1217,7 +1217,7 @@ MonoBehaviour:
       type: 3}
   StepCorrection: 1
   GroundCheck: 1
-  WallCheck: 1
+  WallCheck: 0
 --- !u!1 &718240989121537912
 GameObject:
   m_ObjectHideFlags: 0

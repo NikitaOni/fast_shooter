@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4195108167301539132}
   - {fileID: 5049568261582522849}
@@ -62,6 +63,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -135,6 +137,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &1352550252304805917 stripped
 Transform:
@@ -147,6 +152,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -210,6 +216,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &8871425295185467616 stripped
 Transform:
@@ -222,6 +231,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -285,6 +295,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &4221897235669028661 stripped
 Transform:
@@ -297,6 +310,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -360,6 +374,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &3957900809912788864 stripped
 Transform:
@@ -372,6 +389,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -445,6 +463,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &337275368692459977 stripped
 Transform:
@@ -457,6 +478,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -530,6 +552,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &312350550804008683 stripped
 Transform:
@@ -542,6 +567,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -605,6 +631,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &5744685016499828442 stripped
 Transform:
@@ -617,6 +646,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -680,6 +710,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &5049568261582522849 stripped
 Transform:
@@ -692,6 +725,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -755,6 +789,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &1753381562494157752 stripped
 Transform:
@@ -767,6 +804,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -830,6 +868,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &1386739596015467427 stripped
 Transform:
@@ -842,6 +883,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -915,6 +957,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &2801776086955675228 stripped
 Transform:
@@ -927,6 +972,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -990,6 +1036,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &6041994809763570275 stripped
 Transform:
@@ -1002,6 +1051,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1065,6 +1115,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &7887012825115163236 stripped
 Transform:
@@ -1077,6 +1130,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1140,6 +1194,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &7485884918452675740 stripped
 Transform:
@@ -1152,6 +1209,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -1215,6 +1273,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &2775593866884851985 stripped
 Transform:
@@ -1227,6 +1288,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -1290,6 +1352,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &2594958368649407118 stripped
 Transform:
@@ -1302,6 +1367,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1365,6 +1431,9 @@ PrefabInstance:
       value: Security_Female(Shootgun)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &9143402829833536575 stripped
 Transform:
@@ -1377,6 +1446,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -1440,6 +1510,9 @@ PrefabInstance:
       value: Security_Female(Mp7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &4195108167301539132 stripped
 Transform:
@@ -1452,6 +1525,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1515,6 +1589,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &8844850838418800336 stripped
 Transform:
@@ -1527,6 +1604,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -1600,6 +1678,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &4689762533720905790 stripped
 Transform:
@@ -1612,6 +1693,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1675,6 +1757,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &5655079915463036872 stripped
 Transform:
@@ -1687,6 +1772,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -1750,6 +1836,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &793128849339979089 stripped
 Transform:
@@ -1762,6 +1851,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -1825,6 +1915,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &814131875673194665 stripped
 Transform:
@@ -1837,6 +1930,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -1872,7 +1966,7 @@ PrefabInstance:
     - target: {fileID: 1997746299724499880, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.29
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 1997746299724499880, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
         type: 3}
@@ -1910,6 +2004,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &8268689520688570859 stripped
 Transform:
@@ -1922,6 +2019,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 3444141950037416501, guid: 74a4405ef0b1db747ae6bd1444e4fa5c,
@@ -1985,6 +2083,9 @@ PrefabInstance:
       value: Security_Female(Shootgun) (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a4405ef0b1db747ae6bd1444e4fa5c, type: 3}
 --- !u!4 &4652036318373243529 stripped
 Transform:
@@ -1997,6 +2098,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 1993301709879102214, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e,
@@ -2070,6 +2172,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81e5dc4add1a67e4e9c23fd1d785ff2e, type: 3}
 --- !u!4 &7119598833510808164 stripped
 Transform:
@@ -2082,6 +2187,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4278026428146861171}
     m_Modifications:
     - target: {fileID: 7937149914976229479, guid: 09e9843e437dad548ad9ce725ace4cde,
@@ -2145,6 +2251,9 @@ PrefabInstance:
       value: Security_Female(Mp7) (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e9843e437dad548ad9ce725ace4cde, type: 3}
 --- !u!4 &1528572382723578001 stripped
 Transform:

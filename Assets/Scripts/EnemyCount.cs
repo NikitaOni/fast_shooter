@@ -26,6 +26,7 @@ public class EnemyCount : MonoBehaviour
         if (LevelCount.levelCount < 10)
         {
             LevelCount.levelCount++;
+            PlayerPrefs.SetInt("Level", LevelCount.levelCount);
             RewardedADS.returnEquip();
             yield return new WaitForSeconds(1.5f);
             SceneManager.LoadScene(0);
@@ -34,6 +35,7 @@ public class EnemyCount : MonoBehaviour
         {
             ThanksManager.gameEnd = 1;
             LevelCount.levelCount = 1;
+            PlayerPrefs.SetInt("Level", LevelCount.levelCount);
             RewardedADS.returnEquip();
             yield return new WaitForSeconds(1.5f);
             SceneManager.LoadScene(0);

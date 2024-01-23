@@ -30,8 +30,6 @@ public class Start_menu : MonoBehaviour
     {
         PlayerPrefs.SetInt("Langague", languageID);
         Translator.Select_language(PlayerPrefs.GetInt("Langague"));
-        Debug.Log(PlayerPrefs.HasKey("Language"));
-        Debug.Log(PlayerPrefs.GetInt("Langague"));
     }
 
     public void Show_text()
