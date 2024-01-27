@@ -2010,11 +2010,11 @@ MonoBehaviour:
   TargetTags:
   - Player
   FieldOfView:
-    Radious: 45
+    Radious: 30
     Angle: 360
   SensorLayerMask:
     serializedVersion: 2
-    m_Bits: 199425
+    m_Bits: 133889
   StartRunningAtDistance: 1
   AttackAtDistance: 1
   AimUpOffset: 1
@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnStartGame: 0
-  PlayerController: {fileID: 0}
+  PlayerController: {fileID: 4640132766509146308}
   VisualizationSettings:
     ResourcesPath: 
     GizmosColor: {r: 0, g: 0, b: 0, a: 0.5}

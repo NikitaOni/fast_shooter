@@ -3259,11 +3259,11 @@ MonoBehaviour:
   TargetTags:
   - Player
   FieldOfView:
-    Radious: 45
+    Radious: 80
     Angle: 360
   SensorLayerMask:
     serializedVersion: 2
-    m_Bits: 68353
+    m_Bits: 2817
   StartRunningAtDistance: 1
   StopDistance: 3
   AttackAtDistance: 10

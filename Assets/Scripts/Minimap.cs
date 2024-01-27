@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Minimap : MonoBehaviour
 {
-    [SerializeField] private Transform _player;
+    [SerializeField] public Transform _player;
     [SerializeField] private Transform _cameraPlayer;
 
     private void LateUpdate()

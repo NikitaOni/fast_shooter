@@ -35,7 +35,7 @@ public class Translator : MonoBehaviour
             "Settings",//17
             "Music",//18
             "Sound Effects",//19
-            "Thank you for playing our game! \r\nThe continuation will be very soon!",//20
+            "Thank you for playing our game! \r\nSee you soon!",//20
             "Dear friend!", //21
             "SEAT",//22
             "RUN" //23

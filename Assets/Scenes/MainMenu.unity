@@ -3052,7 +3052,7 @@ MonoBehaviour:
   m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.0001
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8433,7 +8433,7 @@ MonoBehaviour:
   m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.0001
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11516,7 +11516,8 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2236271952439055669, guid: 04f3c2654611ead4aa6c8130f0b9ce7d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2646477136006684529, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}

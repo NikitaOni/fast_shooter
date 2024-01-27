@@ -25,11 +25,13 @@ public class Yandex : MonoBehaviour
 
     public void RateGameButton()
     {
+        Time.timeScale = 0;
         RateGame();
     }
 
     public void ADSRewardButtonDesertEgle()
     {
+        Time.timeScale = 0;
         ADSRewardEgle(); 
     }
 
@@ -40,6 +42,7 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonMachete()
     {
+        Time.timeScale = 0;
         ADSRewardMachete();
     }
 
@@ -50,6 +53,7 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonM249()
     {
+        Time.timeScale = 0;
         ADSRewardM249();
     }
 
@@ -60,12 +64,18 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonInfiniteAmmo()
     {
+        Time.timeScale = 0;
         ADSRewardInfiniteAmmo();
     }
 
     public void GetInfiniteAmmo()
     {
         ADSManager.GetInfiniteAmmo();
+    }
+
+    public void getTimeScale()
+    {
+        Time.timeScale = 1;
     }
 }
 

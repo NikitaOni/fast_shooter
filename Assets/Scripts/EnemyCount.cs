@@ -8,13 +8,13 @@ public class EnemyCount : MonoBehaviour
 {
     private void Awake()
     {
-        LevelManager.enemyCount++;
+        AddEnemyCount.enemyCount++;
     }
 
     public void decreaseCount()
     {
-        LevelManager.enemyCount--;
-        if(LevelManager.enemyCount == 0)
+        AddEnemyCount.enemyCount--;
+        if(AddEnemyCount.enemyCount == 0)
         {
             StartCoroutine(DeleyWin());
             

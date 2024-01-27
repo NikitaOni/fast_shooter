@@ -41,6 +41,7 @@ namespace JUTPS.CameraSystems
 		{
 			base.Start();
 			//Get JU Character Controller reference
+			transform.parent = null;
 			if (TargetToFollow.TryGetComponent(out JUCharacterController JUcharacter)) { characterTarget = JUcharacter; TargetToFollow = characterTarget.HumanoidSpine; }
             
         }

@@ -9,9 +9,11 @@ mergeInto(LibraryManager.library, {
         onRewarded: () => {
           console.log('Rewarded!');
           myGameInstance.SendMessage('Yandex', 'GetEgle');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         },
         onClose: () => {
           console.log('Video ad closed.');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         }, 
         onError: (e) => {
           console.log('Error while open video ad:', e);
@@ -29,9 +31,11 @@ mergeInto(LibraryManager.library, {
         onRewarded: () => {
           console.log('Rewarded!');
           myGameInstance.SendMessage('Yandex', 'GetМachete');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         },
         onClose: () => {
           console.log('Video ad closed.');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         }, 
         onError: (e) => {
           console.log('Error while open video ad:', e);
@@ -49,9 +53,11 @@ mergeInto(LibraryManager.library, {
         onRewarded: () => {
           console.log('Rewarded!');
           myGameInstance.SendMessage('Yandex', 'GetM249');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         },
         onClose: () => {
           console.log('Video ad closed.');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         }, 
         onError: (e) => {
           console.log('Error while open video ad:', e);
@@ -69,9 +75,11 @@ mergeInto(LibraryManager.library, {
         onRewarded: () => {
           console.log('Rewarded!');
           myGameInstance.SendMessage('Yandex', 'GetInfiniteAmmo');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         },
         onClose: () => {
           console.log('Video ad closed.');
+          myGameInstance.SendMessage('Yandex', 'getTimeScale');
         }, 
         onError: (e) => {
           console.log('Error while open video ad:', e);
@@ -90,11 +98,26 @@ mergeInto(LibraryManager.library, {
                 ysdk.feedback.requestReview()
                     .then(({ feedbackSent }) => {
                         console.log(feedbackSent);
+                        myGameInstance.SendMessage('Yandex', 'getTimeScale');
                     })
             } else {
-                console.log(reason)
+                myGameInstance.SendMessage('Yandex', 'getTimeScale');
+                console.log(reason);
             }
         })
+  },
+
+  Advertising: function () {
+    ysdk.adv.showFullscreenAdv({
+    callbacks: {
+        onClose: function(wasShown) {
+          // some action after close
+        },
+        onError: function(error) {
+          // some action on error
+            }
+        }
+    })
   },
 
 });

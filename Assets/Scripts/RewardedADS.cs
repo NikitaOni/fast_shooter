@@ -4,7 +4,7 @@ using UnityEngine;
 using JUTPS.InventorySystem;
 using JUTPS.ItemSystem;
 using System;
-
+using System.Runtime.InteropServices;
 
 public class RewardedADS : MonoBehaviour
 {
@@ -28,6 +28,15 @@ public class RewardedADS : MonoBehaviour
     [Header("InfiniteAmmo")]
     [SerializeField] GameObject active_ammo;
     [SerializeField] GameObject done_ammo;
+
+    [DllImport("__Internal")]
+    private static extern void Advertising();
+
+
+    private void Start()
+    {
+        Advertising();
+    }
 
 
 

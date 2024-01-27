@@ -10,7 +10,7 @@ namespace JUTPS.InventorySystem.UI
     public class UIItemInformation : MonoBehaviour
     {
         private HoldableItem CurrentItem;
-        private JUCharacterController Player;
+        public JUCharacterController Player;
 
         [Header("Essentials")]
         public Sprite EmptySprite;
@@ -22,17 +22,14 @@ namespace JUTPS.InventorySystem.UI
         public Image ItemHealth;
         void Start()
         {
-            Player = JUGameManager.InstancedPlayer;
+            //Player = JUGameManager.InstancedPlayer;
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (Player == null)
-            {
-                Player = JUGameManager.InstancedPlayer;
-                return;
-            }
+            Debug.Log(Player);
+            
 
             if (Player.Inventory == null) return;
 
