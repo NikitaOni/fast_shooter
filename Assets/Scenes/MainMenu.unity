@@ -7956,6 +7956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad13eb297f3ca244d86c78d042d1db6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: {fileID: 259379880}
   active_m249: {fileID: 53574083}
   done_m249: {fileID: 2060439324}
   active_machete: {fileID: 1486259581}
@@ -11251,6 +11252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ADSManager: {fileID: 1293525355}
+  music: {fileID: 259379880}
 --- !u!1 &1875757879
 GameObject:
   m_ObjectHideFlags: 0
@@ -11501,6 +11503,11 @@ PrefabInstance:
       value: BartyDuckDie
       objectReference: {fileID: 0}
     - target: {fileID: 1304838534924618317, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971307732427920263, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}
       propertyPath: m_IsActive
       value: 0

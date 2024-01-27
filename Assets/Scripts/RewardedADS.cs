@@ -13,6 +13,8 @@ public class RewardedADS : MonoBehaviour
     public static bool egle = false;
     public static bool infiniteAmmo = false;
 
+    [SerializeField] public AudioSource music;
+
     [Header("M249")]
     [SerializeField] GameObject active_m249;
     [SerializeField] GameObject done_m249;
@@ -35,11 +37,15 @@ public class RewardedADS : MonoBehaviour
 
     private void Start()
     {
-        Advertising();
+        StartCoroutine(DelayStart());
     }
 
-
-
+    IEnumerator DelayStart()
+    {
+        yield return new WaitForSeconds(0.3f);
+        music.Pause();
+        Advertising();
+    }
 
     public void GetM249()
     {

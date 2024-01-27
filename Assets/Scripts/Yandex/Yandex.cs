@@ -21,17 +21,17 @@ public class Yandex : MonoBehaviour
     private static extern void ADSRewardInfiniteAmmo();
 
     [SerializeField] private RewardedADS ADSManager;
+    [SerializeField] public AudioSource music;
 
 
     public void RateGameButton()
     {
-        Time.timeScale = 0;
         RateGame();
     }
 
     public void ADSRewardButtonDesertEgle()
     {
-        Time.timeScale = 0;
+        music.Pause();
         ADSRewardEgle(); 
     }
 
@@ -42,7 +42,7 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonMachete()
     {
-        Time.timeScale = 0;
+        music.Pause();
         ADSRewardMachete();
     }
 
@@ -53,7 +53,7 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonM249()
     {
-        Time.timeScale = 0;
+        music.Pause();
         ADSRewardM249();
     }
 
@@ -64,7 +64,7 @@ public class Yandex : MonoBehaviour
 
     public void ADSRewardButtonInfiniteAmmo()
     {
-        Time.timeScale = 0;
+        music.Pause();
         ADSRewardInfiniteAmmo();
     }
 
@@ -73,9 +73,10 @@ public class Yandex : MonoBehaviour
         ADSManager.GetInfiniteAmmo();
     }
 
-    public void getTimeScale()
+    public void MusicPlay()
     {
-        Time.timeScale = 1;
+        music.Play();
     }
+
 }
 
