@@ -3263,7 +3263,7 @@ MonoBehaviour:
     Angle: 360
   SensorLayerMask:
     serializedVersion: 2
-    m_Bits: 2817
+    m_Bits: 68353
   StartRunningAtDistance: 1
   StopDistance: 3
   AttackAtDistance: 10

@@ -11517,6 +11517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BartyDuckDie
       objectReference: {fileID: 0}
+    - target: {fileID: 649348222978485768, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1304838534924618317, guid: 04f3c2654611ead4aa6c8130f0b9ce7d,
         type: 3}
       propertyPath: m_IsActive

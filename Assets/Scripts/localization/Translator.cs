@@ -37,9 +37,9 @@ public class Translator : MonoBehaviour
             "Sound Effects",//19
             "Thank you for playing our game! \r\nSee you soon!",//20
             "Dear friend!", //21
-            "SEAT",//22
+            "SIT DOWN",//22
             "RUN", //23
-            "Boss"//24
+            "BOSS"//24
 
         },
         #endregion
@@ -69,7 +69,7 @@ public class Translator : MonoBehaviour
             "Дорогой друг!",  
             "СЕСТЬ", 
             "БЕГ", 
-            "Босс"
+            "БОСС"
         },
         #endregion
     };

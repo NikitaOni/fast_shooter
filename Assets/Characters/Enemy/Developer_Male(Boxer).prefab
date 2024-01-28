@@ -2014,7 +2014,7 @@ MonoBehaviour:
     Angle: 360
   SensorLayerMask:
     serializedVersion: 2
-    m_Bits: 133889
+    m_Bits: 199425
   StartRunningAtDistance: 1
   AttackAtDistance: 1
   AimUpOffset: 1

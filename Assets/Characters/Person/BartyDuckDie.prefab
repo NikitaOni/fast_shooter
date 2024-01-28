@@ -4022,7 +4022,7 @@ MonoBehaviour:
   Benelli: {fileID: 431455638357501828}
   M249: {fileID: 3171003745256679155}
   DesertEgle: {fileID: 2140348871043005477}
-  locked: {fileID: 5706504736970002867}
+  locked: {fileID: 6477373814277648973}
 --- !u!114 &600202092484151689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4434,52 +4434,52 @@ PrefabInstance:
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.042
+      value: -0.007
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.065
+      value: 0.069
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.028
+      value: 0.026
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5508294
+      value: 0.5708572
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.4309148
+      value: -0.41758567
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.40599376
+      value: 0.3855407
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.58827597
+      value: 0.5925392
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -72.25
+      value: -69.013
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -11.298
+      value: -8.784
       objectReference: {fileID: 0}
     - target: {fileID: 1635361833669968604, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 102.024
+      value: 98.18
       objectReference: {fileID: 0}
     - target: {fileID: 7779892361618165491, guid: d8d3c9761d21d804092087bd34af8f52,
         type: 3}
@@ -4994,12 +4994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &5706504736970002867 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7905046906131703022, guid: 2c2f3724810ee184e89a6dc354180a80,
-    type: 3}
-  m_PrefabInstance: {fileID: 2487620411859776861}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6477373814277648973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8890541895491913488, guid: 2c2f3724810ee184e89a6dc354180a80,
