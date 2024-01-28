@@ -38,7 +38,8 @@ public class Translator : MonoBehaviour
             "Thank you for playing our game! \r\nSee you soon!",//20
             "Dear friend!", //21
             "SEAT",//22
-            "RUN" //23
+            "RUN", //23
+            "Boss"//24
 
         },
         #endregion
@@ -67,7 +68,8 @@ public class Translator : MonoBehaviour
             "Спасибо что прошел нашу игру! \r\nПродолжение выйдет совсем скоро!",
             "Дорогой друг!",  
             "СЕСТЬ", 
-            "БЕГ"
+            "БЕГ", 
+            "Босс"
         },
         #endregion
     };

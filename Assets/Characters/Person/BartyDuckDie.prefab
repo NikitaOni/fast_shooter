@@ -621,6 +621,7 @@ Transform:
   - {fileID: 6724871586385438013}
   - {fileID: 7298903436466086370}
   - {fileID: 873360523899394157}
+  - {fileID: 6116532314377064869}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3970,6 +3971,74 @@ Transform:
   m_Father: {fileID: 629930293143833238}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9204866605526150687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116532314377064869}
+  - component: {fileID: 2493921312053751650}
+  - component: {fileID: 600202092484151689}
+  m_Layer: 0
+  m_Name: WeaponManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116532314377064869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9204866605526150687}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164700692195947698}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2493921312053751650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9204866605526150687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626f5c8850de29440b52229e5b236116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Glock17: {fileID: 5235140451869267952}
+  MP7: {fileID: 6204665300802745809}
+  M16: {fileID: 5113109641508671469}
+  Benelli: {fileID: 431455638357501828}
+  M249: {fileID: 3171003745256679155}
+  DesertEgle: {fileID: 2140348871043005477}
+  locked: {fileID: 5706504736970002867}
+--- !u!114 &600202092484151689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9204866605526150687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f31950885be174184495445afba903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DesertEgle: {fileID: 2140348871043005477}
+  Knife: {fileID: 1198619375084548664}
+  Machete: {fileID: 3882189881610769873}
+  Benelli: {fileID: 431455638357501828}
 --- !u!1001 &415346105319341083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4925,6 +4994,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &5706504736970002867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7905046906131703022, guid: 2c2f3724810ee184e89a6dc354180a80,
+    type: 3}
+  m_PrefabInstance: {fileID: 2487620411859776861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6477373814277648973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8890541895491913488, guid: 2c2f3724810ee184e89a6dc354180a80,

@@ -11,7 +11,7 @@ public class LevelCount : MonoBehaviour
     {
         if(PlayerPrefs.HasKey("Level") == false)
         {
-            levelCount = 1;
+            levelCount = 10;
         }
         else
         {
