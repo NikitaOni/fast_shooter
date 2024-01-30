@@ -4278,7 +4278,7 @@ MonoBehaviour:
   PathToDestination: []
   Destination: {x: 0, y: 0, z: 0}
   WaypointPath: {fileID: 0}
-  DistanceToFinishOnePoint: 5
+  DistanceToFinishOnePoint: 10
   CheckNearestPointOnPath: 0
   OnEndPath: 0
   OnStartPath:
@@ -4300,7 +4300,7 @@ MonoBehaviour:
     m_Bits: 68353
   StartRunningAtDistance: 1
   StopDistance: 3
-  AttackAtDistance: 10
+  AttackAtDistance: 15
   AimUpOffset: 1
   LookTargetSpeed: 5
   AttackDuration: 1
